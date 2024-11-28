@@ -115,8 +115,8 @@ The app will be available at `http://127.0.0.1:5000` in your web browser.
 ## Screenshots
 
 ### Main Interface
-![Main UI](link-to-screenshot)
-https://github.com/YBNgoma/ImageCompressorWebApp/blob/37abcc5fbea2b0e52dd4268c5fe5b0da1f7fddd5/Screenshot%20(5).png
+![MainUI](https://github.com/user-attachments/assets/a9cef938-43bf-4538-bf03-3d981a4d8b64)
+
 ---
 
 ## Contributing
