@@ -18,11 +18,11 @@ def home():
 @app.route('/compress', methods=['POST'])
 def compress_image():
     if 'image' not in request.files:
-        return "No file part", 400
+        return "No file parts", 400
 
     file = request.files['image']
     if file.filename == '':
-        return "No selected file", 400
+        return "No selected files", 400
 
     compression_ratio = float(request.form.get('compression_ratio', 1))
     if not (0 < compression_ratio <= 1):
@@ -47,3 +47,5 @@ def compress_image():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+print("Yassin")
